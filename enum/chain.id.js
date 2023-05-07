@@ -4,5 +4,6 @@ const EnumChainId = {
     ETH: 1,
     POLYGON: 137,
     RINKEBY: 4
+    ALT: 2330
 }
 module.exports = EnumChainId;

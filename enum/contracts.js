@@ -2,10 +2,14 @@ const UtilsAddresses = require("../utils/addresses");
 const EnumChainId = require("./chain.id");
 
 const EnumContracts = {
-    [EnumChainId.BSC]: {
-        MAIN_ROUTER: UtilsAddresses.toCheckSum("0x10ED43C718714eb63d5aA57B78B54704E256024E"), // Pancake
-        MAIN_FACTORY: UtilsAddresses.toCheckSum("0xca143ce32fe78f1f7019d7d551a6402fc5350c73") // Pancake
-    }
+  [EnumChainId.ALT]: {
+    MAIN_ROUTER: UtilsAddresses.toCheckSum(
+      "0xae168Ce47cebca9abbC5107a58df0532f1afa4d6"
+    ), // Swapin
+    MAIN_FACTORY: UtilsAddresses.toCheckSum(
+      "0x347aAc6D939f98854110Ff48dC5B7beB52D86445"
+    ), // Swapin
+  },
 };
 
-module.exports = EnumContracts
+module.exports = EnumContracts;
